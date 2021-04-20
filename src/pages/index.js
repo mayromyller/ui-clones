@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
-const Title = styled.h1`
-  color: ${(props) => props.theme.colors.primary};
-`;
+import Layout from "../components/Layout";
 
 function Index() {
-  return <Title>Tik tok - UI Clone</Title>;
+  return <Layout />;
 }
 
 export default Index;
