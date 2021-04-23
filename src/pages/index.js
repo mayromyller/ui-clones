@@ -8,7 +8,7 @@ function Index({ posts }) {
   return (
     <Layout>
       <Feed posts={posts} />
-      {/* <Suggestions /> */}
+      <Suggestions />
     </Layout>
   );
 }
